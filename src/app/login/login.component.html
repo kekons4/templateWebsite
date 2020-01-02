@@ -1,0 +1,22 @@
+<div class="col-md-6 offset-md-3 mt-5" style="width: 21.5em;margin:0 auto;">
+    <div class="alert alert-info">
+        Hello world<br/>
+        This is a test Alert
+    </div>
+</div>    
+<div class="card" style="width: 21.5em;margin:0 auto;">
+    <div class="card-header" style="background-color: ivory;">
+        <h3>Login</h3>
+    </div>
+    <div class="card-body" style="background-color: white">
+        <div>
+            Email: &nbsp;&nbsp;&nbsp;&nbsp; <input type="text" #email>
+        </div>
+        <div>
+            Password: <input type="password" #password>
+        </div>
+    </div>
+    <div class="card-footer" style="background-color: lightgrey;">
+        <button (click)="login(email.value, password.value)">Login</button>
+    </div>
+</div>

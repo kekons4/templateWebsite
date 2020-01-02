@@ -1,0 +1,17 @@
+div{
+    text-align: center;
+    
+}
+
+.card{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: ivory; 
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI";
+    width: 400px;
+    height: 200px;
+    align-items: center;
+}

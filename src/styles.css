@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color:grey;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav{
+    /* text-shadow: 2px 2px 4px silver; */
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif; 
+    -webkit-font-smoothing: antialiased;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: ivory;
+    border-radius: 3px;
+}   

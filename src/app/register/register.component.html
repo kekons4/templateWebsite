@@ -1,0 +1,19 @@
+<div>
+    <font size="5" color="white"><b>Register</b></font>
+    <div>
+        Email: <input type="text" #email>
+    </div>
+    <div>
+        Username: <input type="text" #username>
+    </div>
+    <div>
+        Password: <input type="password">
+    </div>
+    <div>
+        Re-enter Password: <input type="password" #password>
+    </div>
+    <button (click)="register(email.value, username.value, password.value)">Submit</button>
+</div>
+<div *ngIf="poop">
+    {{idk}}
+</div>
